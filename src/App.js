@@ -12,10 +12,11 @@ const App = () => {
     <div className="App">
       <Header title="Call a Friend" desc="Your Friendly Contact App" />
       <div style={{ width: '500px', margin: '0 auto' }}>
-      {contactJson.map(((data, index) => 
-        <Contact photo={data.photo} name={data.name} phone={data.phone} email={data.email} />  
-      ))
-      }
+        {
+          contactJson.map(((data, index) => 
+            <Contact photo={data.photo} name={data.name} phone={data.phone} email={data.email} />  
+          ))
+        }
       </div>
     </div>
   );

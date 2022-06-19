@@ -12,11 +12,11 @@ class Contact extends Component {
                 margin: '0 auto',
                 background: 'lightblue', 
                 padding: '16px',
-                'border-radius': '20px',
+                borderRadius: '20px',
                 width: '100%',
-                'margin-bottom': '20px' }}>
+                marginBottom: '20px' }}>
 
-                <img src={this.props.photo} alt='photo' width='200px' height='200px' style={{ 'border-radius': '100px'}}/>
+                <img src={this.props.photo} alt='photo' width='200px' height='200px' style={{ borderRadius: '100px'}}/>
                 <div style={{
                     display: 'flex', 
                     flexDirection: 'column', 
